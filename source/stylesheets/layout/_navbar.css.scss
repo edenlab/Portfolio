@@ -1,131 +1,51 @@
-/* Main class */
-.navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+/* - Navigation Bar - */
+.navbar-edenlab {
+/*  background: #C8CCC3;*/
+  border: 3px dashed #C8CCC3;
   transition: all 0.3s ease;
   display: flex;
-  height: 70px;
+  height: 40px;
   padding: 0px 30px;
   align-items: center;
-  justify-content: space-between;
-}
-
-/* Optional class to fix the navbar on top */
-.navbar-wagon-fixed {
+  justify-content: flex-end;
   position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-  width: 100%;
-}
+  z-index: 100;
 
-/* Navbar logo */
-.navbar-wagon-brand img {
-  width: 50px;
-}
-
-/* Navbar right section (with form, links, button) */
-.navbar-wagon-right {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.14902) 0px 0px 1px;
+  padding: 30px 0px;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.980392);
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  transition: .3s ease transform;
+  transform: translateY(0);
+
+  &.is-hidden {
+    transform: translateY(-100%);
+  }
 }
 
-/* Navbar item */
-.navbar-wagon-item {
-  flex: 0 1 auto;
+.navbar-edenlab-item {
   cursor: pointer;
   padding: 0 20px;
-}
-
-/* Navbar standard link */
-.navbar-wagon-link {
-  color: #616668;
-  font-size: 14px;
-}
-.navbar-wagon-link:hover {
-  color: #da552f;
   text-decoration: none;
+  font-family: 'Oxygen', cursive;
 }
 
-/* Navbar right button */
-.navbar-wagon-button {
-  margin-left: 10px;
-  padding: 0 20px;
-  border-radius: 20em;
-  line-height: 40px;
-  background-color: #D23333;
-  color: white;
-  font-size: 14px;
-  border: 2px solid #D23333;
+.navbar-edenlab-link {
+  color: #777;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.navbar-wagon-button:hover {
-  color: white;
-  background: #D23333;
-  border-color: #ac2626;
+.navbar-edenlab-link:hover {
+  text-decoration: none;
+  color: black;
 }
 
-/* Navbar search form */
-.navbar-wagon-search {
-  flex: 0 1 300px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 10px;
-  position: relative;
-}
-.navbar-wagon-search-btn {
-  line-height: 40px;
-  color: #E6E6E6;
-  border: none;
-  background: transparent;
-  position: absolute;
-  right: 14px;
-  top: -2px;
-  z-index: 1;
-}
-.navbar-wagon-search-input {
-  flex: 0 1 300px;
-  transition: all 0.15s ease;
-  line-height: 40px;
-  font-weight: lighter;
-  color: #666666;
-  border: 1px solid #E6E6E6;
-  border-radius: 5px;
-  padding: 0 10px;
-  font-size: 14px;
-  outline: none;
-}
-.navbar-wagon-search-input:focus  {
-  border: 1px solid #CCCCCC;
-}
+/*---------------------------*/
 
-/* Navbar dropdown menu */
-.navbar-wagon-dropdown-menu {
-  margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
-}
-.navbar-wagon-dropdown-menu li > a {
-  transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  padding: 10px 20px;
-}
-.navbar-wagon-dropdown-menu li > a:hover {
-  background: transparent !important;
-  color: black !important;
-}
-.navbar-wagon-dropdown-menu:before {
-  content: ' ';
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  right: 10px;
-  top: -6px;
-  background-color: white;
-  transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
-}

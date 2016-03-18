@@ -1,0 +1,55 @@
+.banner {
+  color: #FFF;
+  text-align: center;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), image-url('img/streetfighter.jpg');
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.banner-navbar {
+  transition: all 0.3s ease;
+  display: flex;
+  height: 40px;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main-navbar-item {
+  cursor: pointer;
+  padding: 0 20px;
+  text-decoration: none;
+  font-family: 'Oxygen';
+}
+
+.main-navbar-link {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.main-navbar-link:hover {
+  color: #e3e0cf;
+}
+
+
+.banner-content {
+  flex: 0 0 60%;
+  font-family: 'Satisfy', cursive;
+
+}
+.banner h1 {
+  font-size: 70px;
+}
+
+.banner p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}

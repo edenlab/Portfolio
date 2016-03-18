@@ -1,0 +1,29 @@
+.skills-page {
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-skills {
+  margin: 20px 0 0;
+}
+
+.column-skills {
+  background-color: #C2C2C2;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+}
+
+.column-skills li{
+  text-align: left;
+  margin-left: 40%;
+}
+
+.special li {
+   margin-left: 30%;
+}
