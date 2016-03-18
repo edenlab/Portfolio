@@ -1,6 +1,5 @@
 /* - About - */
 .about-container {
-  background-color: #C2C2C2;
   padding: 25px;
 }
 
@@ -27,7 +26,6 @@
 
 .about-content {
   padding: 30px;
-/*  background-color: white;*/
 }
 
 
@@ -38,7 +36,6 @@
 
 .profile-picture {
   height: 100vh
-
 }
 
 .lewagon-picture {
@@ -47,26 +44,13 @@
   vertical-align: middle;
 }
 
-.github-picture {
-  height: 60px;
-  width: auto;
-}
-
-.image-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  text-align: center;
-}
-
 .link-to {
-  color: #333333;
+  color: black;
 }
 
 .link-to:hover {
-  color: #FFF;
-  text-shadow: 2px 2px #ff0000;
+  color: #e3e0cf;
+  text-decoration: none;
 }
 
 .logo-style {

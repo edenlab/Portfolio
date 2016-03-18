@@ -1,17 +1,22 @@
+.experiences {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), image-url('img/before-coding.jpg');
+  background-size: cover !important;
+}
+
 .container-content {
-  background-color: #C2C2C2;
+  background-color: white;
   padding: 15px;
+  border-radius: 5px;
 }
 
 .vimeo-container {
   display: flex;
   justify-content: space-around;
-
   padding-top: 5px;
 }
 
 .container-experience {
-  padding: 60px 0 0;
+  padding: 60px 0 40px;
 }
 
 .text-container {
