@@ -9,10 +9,6 @@
   padding: 0;
 }
 
-.picture-about {
-  height: 100vh;
-  float: left;
-}
 
 .no-padding {
    padding: 0 !important;
@@ -28,14 +24,16 @@
   padding: 30px;
 }
 
-
 .about-content p {
   margin: 30px 0 0;
   text-align: left;
+  padding: 30px;
+  color: gray;
 }
 
 .profile-picture {
-  height: 100vh
+  height: 100vh;
+  min-height: 500px;
 }
 
 .lewagon-picture {
@@ -49,7 +47,7 @@
 }
 
 .link-to:hover {
-  color: #e3e0cf;
+  color: #D4312D;
   text-decoration: none;
 }
 
