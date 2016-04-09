@@ -1,7 +1,11 @@
-.experiences {
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), image-url('img/before-coding.jpg');
+// #title-experience {
+//   padding: 50px 0px 0px;
+// }
+
+.experiences-page {
   height: 100vh;
-  background-size: cover !important;
+  display: flex;
+  align-items: center;
 }
 
 .vimeo-container {
@@ -10,20 +14,22 @@
 }
 
 .vimeo {
-  height: 200px
+  height: 200px;
 }
 
-.container-experience {
-  padding: 150px 0 30px;
-  margin-left: 80px;
-}
-
-.text-container {
-  padding-top: 20px;
+.experience-container {
+  margin: 30px 0 0;
   text-align: left;
-  color: white;
+
+  p {
+    color: #858585;
+  }
 }
 
-#experience-title {
-  color: white;
+.archi {
+  border-style: solid;
+  border-width: 0.2px;
+  border-color: #858585;
 }
+
+
